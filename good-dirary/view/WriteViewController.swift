@@ -9,15 +9,12 @@ import UIKit
 
 class WriteViewController: UIViewController {
     
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
     
     func configureView() {
         // Update the user interface for the detail item.
-        if let detail = detailItem {
-            if let label = detailDescriptionLabel {
-                label.text = detail.description
-            }
-        }
+        let saveButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addContent(contents:)))
+       navigationItem.rightBarButtonItem = saveButton
     }
     
     override func viewDidLoad() {
@@ -31,13 +28,9 @@ class WriteViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    var detailItem: NSDate? {
-        didSet {
-            // Update the view.
-            configureView()
-        }
+    @objc func addContent(contents:Any) {
+        
     }
-    
     
 }
 

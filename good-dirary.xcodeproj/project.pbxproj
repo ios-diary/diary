@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D5EC129B3E2A0F91E942299 /* Pods_good_diraryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3784C3EA2CD7EBA7C134D2D2 /* Pods_good_diraryUITests.framework */; };
+		940146AD1ADE02A84EDB6062 /* Pods_good_diraryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCF06D80EB00383EC4E91DA /* Pods_good_diraryTests.framework */; };
 		9D0204B020144936004F03FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0204AF20144936004F03FB /* AppDelegate.swift */; };
 		9D0204B220144936004F03FB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0204B120144936004F03FB /* MasterViewController.swift */; };
 		9D0204B420144936004F03FB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0204B320144936004F03FB /* DetailViewController.swift */; };
@@ -38,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CCF06D80EB00383EC4E91DA /* Pods_good_diraryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_good_diraryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2619BAA885212A1556D28231 /* Pods-good-diraryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-good-diraryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-good-diraryUITests/Pods-good-diraryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		33D4822FE65D431471B48D3B /* Pods-good-dirary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-good-dirary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-good-dirary/Pods-good-dirary.debug.xcconfig"; sourceTree = "<group>"; };
+		3784C3EA2CD7EBA7C134D2D2 /* Pods_good_diraryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_good_diraryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDA6DE168A7A5DA1A251B4A /* Pods-good-diraryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-good-diraryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-good-diraryUITests/Pods-good-diraryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		96A3230DAAF4C522FBCA000D /* Pods_good_dirary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_good_dirary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D0204AC20144936004F03FB /* good-dirary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "good-dirary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D0204AF20144936004F03FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D0204B120144936004F03FB /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +63,9 @@
 		9D02051D201453F9004F03FB /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
 		9D2AD8A92015BF8D00F78E8A /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
 		9D43930F201C32F400820611 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		C9388AA5178A40CB210AC75F /* Pods-good-diraryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-good-diraryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-good-diraryTests/Pods-good-diraryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE318D82819EBB9623E7E7A0 /* Pods-good-diraryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-good-diraryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-good-diraryTests/Pods-good-diraryTests.release.xcconfig"; sourceTree = "<group>"; };
+		FAB8DA621E823F9458ED17A3 /* Pods-good-dirary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-good-dirary.release.xcconfig"; path = "Pods/Target Support Files/Pods-good-dirary/Pods-good-dirary.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				940146AD1ADE02A84EDB6062 /* Pods_good_diraryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D5EC129B3E2A0F91E942299 /* Pods_good_diraryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A2BCA0C8CCE03D9774DC0B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96A3230DAAF4C522FBCA000D /* Pods_good_dirary.framework */,
+				1CCF06D80EB00383EC4E91DA /* Pods_good_diraryTests.framework */,
+				3784C3EA2CD7EBA7C134D2D2 /* Pods_good_diraryUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DA2A35F5184EE648472F734 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33D4822FE65D431471B48D3B /* Pods-good-dirary.debug.xcconfig */,
+				FAB8DA621E823F9458ED17A3 /* Pods-good-dirary.release.xcconfig */,
+				C9388AA5178A40CB210AC75F /* Pods-good-diraryTests.debug.xcconfig */,
+				EE318D82819EBB9623E7E7A0 /* Pods-good-diraryTests.release.xcconfig */,
+				2619BAA885212A1556D28231 /* Pods-good-diraryUITests.debug.xcconfig */,
+				6BDA6DE168A7A5DA1A251B4A /* Pods-good-diraryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9D0204A320144936004F03FB = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +125,8 @@
 				9D0204C520144936004F03FB /* good-diraryTests */,
 				9D0204D020144936004F03FB /* good-diraryUITests */,
 				9D0204AD20144936004F03FB /* Products */,
+				2DA2A35F5184EE648472F734 /* Pods */,
+				0A2BCA0C8CCE03D9774DC0B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D0204D620144936004F03FB /* Build configuration list for PBXNativeTarget "good-dirary" */;
 			buildPhases = (
+				36F250D20A780303DF07F7F3 /* [CP] Check Pods Manifest.lock */,
 				9D0204A820144936004F03FB /* Sources */,
 				9D0204A920144936004F03FB /* Frameworks */,
 				9D0204AA20144936004F03FB /* Resources */,
+				9145CD5B8DB6519BC4822E2D /* [CP] Embed Pods Frameworks */,
+				694ED64F0052BB91C291B660 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D0204D920144936004F03FB /* Build configuration list for PBXNativeTarget "good-diraryTests" */;
 			buildPhases = (
+				3E44C78D097B51529DC12088 /* [CP] Check Pods Manifest.lock */,
 				9D0204BE20144936004F03FB /* Sources */,
 				9D0204BF20144936004F03FB /* Frameworks */,
 				9D0204C020144936004F03FB /* Resources */,
+				4141913C9761829B8CAFD2AB /* [CP] Embed Pods Frameworks */,
+				01B19F28F1D53850262FB06A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D0204DC20144936004F03FB /* Build configuration list for PBXNativeTarget "good-diraryUITests" */;
 			buildPhases = (
+				A6B2FB15AC2E40AFF20A28B5 /* [CP] Check Pods Manifest.lock */,
 				9D0204C920144936004F03FB /* Sources */,
 				9D0204CA20144936004F03FB /* Frameworks */,
 				9D0204CB20144936004F03FB /* Resources */,
+				E05FDB8E5C3ACE3ED506AB10 /* [CP] Embed Pods Frameworks */,
+				64FE081AE0EBCA5443F762C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -281,6 +328,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01B19F28F1D53850262FB06A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-good-diraryTests/Pods-good-diraryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36F250D20A780303DF07F7F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-good-dirary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E44C78D097B51529DC12088 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-good-diraryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4141913C9761829B8CAFD2AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-good-diraryTests/Pods-good-diraryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64FE081AE0EBCA5443F762C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-good-diraryUITests/Pods-good-diraryUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		694ED64F0052BB91C291B660 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-good-dirary/Pods-good-dirary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9145CD5B8DB6519BC4822E2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-good-dirary/Pods-good-dirary-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-good-dirary/Pods-good-dirary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6B2FB15AC2E40AFF20A28B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-good-diraryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E05FDB8E5C3ACE3ED506AB10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-good-diraryUITests/Pods-good-diraryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9D0204A820144936004F03FB /* Sources */ = {
@@ -456,6 +653,7 @@
 		};
 		9D0204D720144936004F03FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D4822FE65D431471B48D3B /* Pods-good-dirary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +668,7 @@
 		};
 		9D0204D820144936004F03FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAB8DA621E823F9458ED17A3 /* Pods-good-dirary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +683,7 @@
 		};
 		9D0204DA20144936004F03FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9388AA5178A40CB210AC75F /* Pods-good-diraryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -500,6 +700,7 @@
 		};
 		9D0204DB20144936004F03FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE318D82819EBB9623E7E7A0 /* Pods-good-diraryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +717,7 @@
 		};
 		9D0204DD20144936004F03FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2619BAA885212A1556D28231 /* Pods-good-diraryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +733,7 @@
 		};
 		9D0204DE20144936004F03FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BDA6DE168A7A5DA1A251B4A /* Pods-good-diraryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
