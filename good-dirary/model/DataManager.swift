@@ -19,14 +19,13 @@
 // print(DataManager.get(2))
 //
 
-import SQLite
+import SQLite3
 
 class DataManager {
     
     // Properties
     
     var database:Connection!
-    
     let diaryTable = Table("diary")
     let id = Expression<Int>("id")
     let yyyymmdd = Expression<String>("yyyymmdd")
@@ -53,7 +52,7 @@ class DataManager {
         print("DataManager connectDatabase()")
         // database
         do {
-            let documentDirectory = try FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+            let documentDirectory = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
             let fileUrl = documentDirectory.appendingPathComponent("diary").appendingPathExtension("sqlite3")
             let database = try Connection(fileUrl.path)
             self.database = database

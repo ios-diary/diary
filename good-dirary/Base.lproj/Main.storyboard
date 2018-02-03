@@ -168,33 +168,38 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NS9-yu-uXO">
-                                <rect key="frame" x="120" y="402" width="119" height="30"/>
+                                <rect key="frame" x="128" y="402" width="119" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="오늘 하루는 어땠나요?" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nhg-nq-z5h">
-                                <rect key="frame" x="16" y="502" width="329" height="30"/>
+                                <rect key="frame" x="20" y="502" width="329" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R42-NO-QPC">
-                                <rect key="frame" x="0.0" y="64" width="375" height="271"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R42-NO-QPC">
+                                <rect key="frame" x="0.0" y="64" width="377" height="271"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M0n-GF-rMz">
+                                        <rect key="frame" x="122.76704832397718" y="85.538397799490667" width="128" height="103.99999999999989"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" red="0.92724018671352015" green="0.92724018671352015" blue="0.92724018671352015" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hND-uP-Jee">
-                                <rect key="frame" x="130" y="371" width="102" height="21"/>
+                                <rect key="frame" x="136" y="371" width="102" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8eh-jR-UWV">
-                                <rect key="frame" x="130" y="457" width="102" height="21"/>
+                                <rect key="frame" x="136" y="457" width="102" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -202,12 +207,19 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="R42-NO-QPC" firstAttribute="leading" secondItem="vSB-5W-Ubk" secondAttribute="leading" id="mbT-0A-GYn"/>
+                            <constraint firstAttribute="trailing" secondItem="R42-NO-QPC" secondAttribute="trailing" constant="-2" id="tK0-Jw-Wmd"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="uF6-Xj-ExC"/>
                     </view>
                     <navigationItem key="navigationItem" id="n3D-dz-vQk">
                         <barButtonItem key="rightBarButtonItem" title="저장" id="XTA-tw-Kpp"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="contentsText" destination="nhg-nq-z5h" id="izl-1x-Bd2"/>
+                        <outlet property="dateLabel" destination="8eh-jR-UWV" id="fRL-LD-F1z"/>
+                        <outlet property="titleText" destination="NS9-yu-uXO" id="9qd-PJ-uAM"/>
                         <outlet property="view" destination="R42-NO-QPC" id="2Nv-ua-pE3"/>
                     </connections>
                 </viewController>

@@ -1,0 +1,14 @@
+PODS:
+  - sqlite3 (3.21.0):
+    - sqlite3/common (= 3.21.0)
+  - sqlite3/common (3.21.0)
+
+DEPENDENCIES:
+  - sqlite3
+
+SPEC CHECKSUMS:
+  sqlite3: c1728c2cd4ce1c2e629d674e4a732cf0339eb906
+
+PODFILE CHECKSUM: 1e5bd75cd85cae2f4f1495803323a197af330f80
+
+COCOAPODS: 1.4.0.rc.1

@@ -10,6 +10,8 @@ import UIKit
 class WriteViewController: UIViewController {
     
     @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var contentsText: UITextField!
+    @IBOutlet weak var titleText: UITextField!
     
     func configureView() {
         // Update the user interface for the detail item.
