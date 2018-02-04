@@ -6,7 +6,7 @@ target 'good-dirary' do
   use_frameworks!
 
   # Pods for good-dirary
-  pod 'sqlite'
+  pod 'sqlite3'
 
   target 'good-diraryTests' do
     inherit! :search_paths
